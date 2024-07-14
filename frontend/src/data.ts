@@ -70,7 +70,7 @@ export const sample_foods:Food[]=[
       },
 ]
 export const sample_tags:Tag[] = [
-    { name: 'All', count: 6 },
+    { name: 'All', count: 4 },
     { name: 'FastFood', count: 4 },
     { name: 'Pizza', count: 2 },
     { name: 'Lunch', count: 3 },

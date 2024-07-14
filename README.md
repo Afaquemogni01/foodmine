@@ -19,3 +19,14 @@ A simple app based on angularjs
        2. Add ts
        3. Add html
        4. Add css
+
+
+9. Generate the page Not found
+ 1. Generate component 
+   1. Add ts
+   2. Add html
+   3. Add css
+  2. Add to pages 
+   1. Home Page 
+   2. Food Page
+   3. Cart page 
