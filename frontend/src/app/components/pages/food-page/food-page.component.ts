@@ -16,7 +16,9 @@ food!:Food;
   {
     activatedRoute.params.subscribe((params)=>{
       if(params.id)
-        this.food=foodService.getFoodById(params.id);
+       foodService.getFoodById(params.id).subscribe(serverfood =>{
+      this.food=serverfood
+    });
     })
   }
   ngOnInit(): void {

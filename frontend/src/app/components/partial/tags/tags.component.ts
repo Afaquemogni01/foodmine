@@ -12,7 +12,9 @@ tags?:Tag[];
 
   constructor(foodService:FoodService)
 {
-this.tags=foodService.getAlltags();
+foodService.getAlltags().subscribe(serverTags=>{
+  this.tags=serverTags;
+});
 }
   ngOnInit(): void {
 
